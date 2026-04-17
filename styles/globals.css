@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --beige: #f5f5dc;
+  --cream: #fffdd0;
+  --sage: #b2ac88;
+  --champagne-charcoal: #2f2d26;
+  --champagne-muted: #5b5645;
+}
+
+@layer base {
+  body {
+    background: var(--beige);
+    color: var(--champagne-charcoal);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-playfair), serif;
+    letter-spacing: 0.01em;
+  }
+
+  p,
+  span,
+  a,
+  li,
+  button {
+    font-family: var(--font-inter), sans-serif;
+  }
+}
