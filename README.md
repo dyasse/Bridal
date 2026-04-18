@@ -18,7 +18,7 @@ A `vercel.json` file is included to make deployment behavior explicit:
 - Uses Next.js framework detection.
 - Uses clean install via `npm ci`.
 - Uses `npm run build` for production build.
-- Uses `.next` as output directory.
+- Leaves output directory to Vercel defaults for Next.js (prevents runtime 404 routing issues).
 
 ### Recommended Vercel Project Settings
 
